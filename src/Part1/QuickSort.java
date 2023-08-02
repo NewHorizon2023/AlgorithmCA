@@ -1,12 +1,12 @@
 package Part1;
 
-import BaseClass.ReadStaffData;
-import BaseClass.Staff;
+import Base.ReadStaffData;
+import Base.Staff;
 
 import java.util.Arrays;
 
 /**
- * Part1, question1, QuickSort
+ * Question2: quick sort.
  *
  * @Author: Xiangnan Liu
  * @CreateTime: 2023-08-02

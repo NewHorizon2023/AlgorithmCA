@@ -1,10 +1,10 @@
 package Part1;
 
-import BaseClass.ReadStaffData;
-import BaseClass.Staff;
+import Base.ReadStaffData;
+import Base.Staff;
 
 /**
- * Experiment
+ * Question3: experiment.
  *
  * @Author: Xiangnan Liu
  * @CreateTime: 2023-08-02

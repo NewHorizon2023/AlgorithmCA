@@ -1,7 +1,7 @@
-package BaseClass;
+package Base;
 
 /**
- * BaseClass.Staff
+ * Staff
  *
  * @Author: Xiangnan Liu
  * @CreateTime: 2023-08-02

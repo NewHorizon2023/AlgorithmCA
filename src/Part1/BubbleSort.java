@@ -1,12 +1,12 @@
 package Part1;
 
-import BaseClass.ReadStaffData;
-import BaseClass.Staff;
+import Base.ReadStaffData;
+import Base.Staff;
 
 import java.util.Arrays;
 
 /**
- * Part1, question1, BubbleSort
+ * Question1: bubble sort.
  *
  * @Author: Xiangnan Liu
  * @CreateTime: 2023-08-02
