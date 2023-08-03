@@ -5,6 +5,7 @@ import Base.Staff;
 
 /**
  * Question4: binary search.
+ * In this class, a Template Method Design Pattern is used.
  *
  * @Author: Xiangnan Liu
  * @CreateTime: 2023-08-02

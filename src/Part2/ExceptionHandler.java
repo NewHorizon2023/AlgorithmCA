@@ -20,12 +20,12 @@ public class ExceptionHandler {
 
         // If the value of fName is null or empty.
         if (fName == null || fName.isEmpty()) {
-            throw new IllegalArgumentException("The value of fName can't be null or empty!");
+            throw new ParamException("The value of fName can't be null or empty!");
         }
 
         // If the value of fName is a pure number.
         if (fName.matches("\\d+")) {
-            throw new IllegalArgumentException("The value of fName cannot be a pure number!");
+            throw new ParamException("The value of fName cannot be a pure number!");
         }
     }
 
