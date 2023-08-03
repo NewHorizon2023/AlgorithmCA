@@ -4,7 +4,7 @@ import Base.ReadStaffData;
 import Base.Staff;
 
 /**
- * Question4: binary search.
+ * Question4-2: binary search.
  * In this class, a Template Method Design Pattern is used.
  *
  * @Author: Xiangnan Liu

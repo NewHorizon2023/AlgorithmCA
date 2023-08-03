@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Question4-1: Abstract class of binary search.
+ *
  * @author Xiangnan Liu
  * @date 2023-08-03 15:01
  */
