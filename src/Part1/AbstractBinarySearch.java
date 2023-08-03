@@ -56,5 +56,12 @@ public abstract class AbstractBinarySearch<T, E> {
         return null;
     }
 
+    /**
+     * Overwrite this comparing method when extends this abstract class.
+     *
+     * @param t
+     * @param e
+     * @return
+     */
     public abstract int compareTo(T t, E e);
 }
