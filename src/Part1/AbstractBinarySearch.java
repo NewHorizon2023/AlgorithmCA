@@ -57,7 +57,7 @@ public abstract class AbstractBinarySearch<T, E> {
     }
 
     /**
-     * Overwrite this comparing method when extends this abstract class.
+     * Override this comparing method when extends this abstract class.
      *
      * @param t
      * @param e
