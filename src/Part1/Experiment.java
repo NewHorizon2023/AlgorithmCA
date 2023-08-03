@@ -42,7 +42,8 @@ public class Experiment {
         end = System.nanoTime();
         System.out.println("The time taken to sort 10000 elements with bubble sort is: " + (end - begin) / 1000 + " microseconds");
 
-        System.out.println(BinarySearch.find(staffs10000, "Pamela"));
+        BinarySearch binarySearch = new BinarySearch();
+        System.out.println(binarySearch.find(staffs10000, "Pamela"));
     }
 
 }
