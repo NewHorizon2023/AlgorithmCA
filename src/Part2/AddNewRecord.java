@@ -26,6 +26,7 @@ public class AddNewRecord {
     public static void add(List<Staff> list, String fName, String sName, String department, float wage, float projectCompletionRate) {
         int empNo = list.get(list.size() - 1).getEmpNo() + 1;
         Staff staff = new Staff(empNo, fName, sName, department, wage, projectCompletionRate);
+        ExceptionHandler.check(staff);
         list.add(staff);
     }
 
