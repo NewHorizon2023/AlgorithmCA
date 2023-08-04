@@ -32,6 +32,7 @@ public class AddNewRecord {
     public static void main(String[] args) {
         List<Staff> list = ReadStaffData.readAll();
         add(list, "Francis", "Hood", "Sales", 1003.77f, 56.3434f);
+        System.out.println(list);
         System.out.println("After been added one staff, the size of new list is: " + list.size());
     }
 }

@@ -78,8 +78,12 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        Staff[] staffs = ReadStaffData.read(20);
+        Staff[] staffs = ReadStaffData.read(5);
+        System.out.println("Before sort:");
+        System.out.println(Arrays.toString(staffs));
+        System.out.println("------------------------------------------------------");
         sort(staffs);
+        System.out.println("After sort:");
         System.out.println(Arrays.toString(staffs));
     }
 
