@@ -32,9 +32,16 @@ public class ExceptionHandler {
     public static void main(String[] args) {
         Staff staff1 = new Staff(1, "", "Hood", "Sales", 1003.77f, 56.3434f);
         Staff staff2 = new Staff(1, "123", "Hood", "Sales", 1003.77f, 56.3434f);
-
-        check(staff1);
-        check(staff2);
+        try {
+            check(staff1);
+        } catch (ParamException e) {
+            System.out.println(e);
+        }
+        try {
+            check(staff2);
+        } catch (ParamException e) {
+            System.out.println(e);
+        }
 
     }
 }
